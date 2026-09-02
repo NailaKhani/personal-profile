@@ -3,90 +3,284 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Personal Profile Page of a DigiSkills 3.0 student learning Full Stack Development with MERN." />
-  <title>My Personal Profile | DigiSkills MERN</title>
+  <meta name="description" content="Personal Profile Page of Naila Bibi – Full Stack Developer & AI Enthusiast from COMSATS University Islamabad." />
+  <title>Naila Bibi | Full Stack Developer & AI Enthusiast</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-  <!-- ===== HEADER ===== -->
+  <!-- ===== HERO HEADER ===== -->
   <header class="hero">
-    <div class="hero-overlay"></div>
     <div class="hero-content">
       <div class="avatar" aria-label="Profile Avatar">
-        <span class="avatar-initials">SA</span>
+        <span class="avatar-initials">NB</span>
       </div>
-      <h1 class="hero-name">Saddam Ali</h1>
-      <p class="hero-title">Full Stack Developer in Training 🚀</p>
-      <p class="hero-badge">DigiSkills 3.0 &nbsp;|&nbsp; MERN Batch-04</p>
+      <h1 class="hero-name">Naila Bibi</h1>
+      <p class="hero-title">Full Stack Developer &nbsp;|&nbsp; AI Enthusiast &nbsp;|&nbsp; UI/UX Designer</p>
+      <p class="hero-location">📍 Wah Cantt, Taxila, Pakistan &nbsp;(Open to Remote)</p>
+      <div class="hero-badges">
+        <span class="badge">🎓 COMSATS University Islamabad</span>
+        <span class="badge">💼 Web Intern @ Quantum Logics</span>
+        <span class="badge">🚀 DigiSkills 3.0 MERN Batch-04</span>
+      </div>
+      <div class="hero-links">
+        <a href="mailto:nailakhani5457@gmail.com" class="hero-btn" id="email-btn">📧 Email Me</a>
+        <a href="https://github.com/NailaKhani" target="_blank" rel="noopener noreferrer" class="hero-btn secondary" id="github-btn">🔗 GitHub</a>
+        <a href="https://linkedin.com/in/naila-bibi-62a2863a7" target="_blank" rel="noopener noreferrer" class="hero-btn secondary" id="linkedin-btn">💼 LinkedIn</a>
+      </div>
     </div>
   </header>
 
-  <!-- ===== MAIN CONTENT ===== -->
+  <!-- ===== MAIN ===== -->
   <main class="container">
 
-    <!-- About Me -->
+    <!-- ---- About Me ---- -->
     <section class="card" id="about">
-      <div class="card-icon">👤</div>
-      <h2 class="card-title">About Me</h2>
+      <div class="card-header">
+        <span class="card-icon">👩‍💻</span>
+        <h2 class="card-title">About Me</h2>
+      </div>
       <p>
-        Hi! I'm <strong>Saddam Ali</strong>, a passionate and motivated learner currently enrolled in the
-        <strong>DigiSkills 3.0 – Full Stack Development with MERN</strong> program.
+        Hi! I'm <strong>Naila Bibi</strong>, a passionate <strong>Software Engineering student</strong> at
+        <strong>COMSATS University Islamabad</strong> (CGPA: 3.24/4.00, Expected June 2026).
+        I specialize in building modern, scalable web applications and intelligent AI-powered systems.
       </p>
       <p>
-        I am committed to building modern, scalable web applications using cutting-edge technologies.
-        I enjoy solving problems and turning ideas into real-world digital products.
-        My goal is to become a professional Full Stack Developer and contribute to the tech community.
+        Currently, I am working as a <strong>Web Intern at Quantum Logics</strong>, where I collaborate with
+        remote teams to develop responsive web applications, manage version control workflows using Git,
+        and assist in implementing new web features.
+      </p>
+      <p>
+        I have hands-on experience with the full MERN stack, machine learning models (LSTM, ARO), UI/UX
+        design, and RESTful APIs. I love turning complex problems into elegant, user-friendly solutions.
       </p>
     </section>
 
-    <!-- Skills -->
+    <!-- ---- Experience ---- -->
+    <section class="card" id="experience">
+      <div class="card-header">
+        <span class="card-icon">💼</span>
+        <h2 class="card-title">Experience</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot active"></div>
+          <div class="timeline-body">
+            <div class="timeline-header">
+              <h3>Web Intern</h3>
+              <span class="timeline-badge current">Current</span>
+            </div>
+            <p class="timeline-org">🏢 Quantum Logics &nbsp;—&nbsp; Remote</p>
+            <p class="timeline-date">📅 July 2026 – Present</p>
+            <ul class="timeline-list">
+              <li>Developing and maintaining responsive web applications.</li>
+              <li>Participating in daily team workflows and using Git for asynchronous collaboration.</li>
+              <li>Assisting in design and implementation of new web features.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <div class="timeline-header">
+              <h3>Software Engineering Intern</h3>
+            </div>
+            <p class="timeline-org">🏢 Pakistan Ordnance Factories (POFs) &nbsp;—&nbsp; Wah Cantt</p>
+            <p class="timeline-date">📅 Aug 2026 – Sept. 2026</p>
+            <ul class="timeline-list">
+              <li>Selected for a competitive internship program for hands-on enterprise software development.</li>
+              <li>Expected to contribute to enterprise-level software projects and IT operations.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ---- Skills ---- -->
     <section class="card" id="skills">
-      <div class="card-icon">💡</div>
-      <h2 class="card-title">Skills</h2>
-      <ul class="skills-list">
-        <li class="skill-item">
-          <span class="skill-dot html"></span>HTML5 – Structuring web content
-        </li>
-        <li class="skill-item">
-          <span class="skill-dot css"></span>CSS3 – Styling and responsive design
-        </li>
-        <li class="skill-item">
-          <span class="skill-dot js"></span>JavaScript – Dynamic web interactions
-        </li>
-        <li class="skill-item">
-          <span class="skill-dot react"></span>React.js – Building user interfaces
-        </li>
-        <li class="skill-item">
-          <span class="skill-dot node"></span>Node.js – Backend development
-        </li>
-        <li class="skill-item">
-          <span class="skill-dot mongo"></span>MongoDB – Database management
-        </li>
-        <li class="skill-item">
-          <span class="skill-dot git"></span>Git & GitHub – Version control
-        </li>
+      <div class="card-header">
+        <span class="card-icon">💡</span>
+        <h2 class="card-title">Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">💻 Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="tag lang">Python ⭐⭐⭐⭐</span>
+            <span class="tag lang">JavaScript ⭐⭐⭐⭐</span>
+            <span class="tag lang">C++ ⭐⭐⭐</span>
+            <span class="tag lang">Java ⭐⭐⭐</span>
+            <span class="tag lang">PHP ⭐⭐⭐</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">🌐 Web Development</h3>
+          <div class="skill-tags">
+            <span class="tag web">React.js ⭐⭐⭐⭐</span>
+            <span class="tag web">Node.js ⭐⭐⭐⭐</span>
+            <span class="tag web">HTML5 ⭐⭐⭐⭐</span>
+            <span class="tag web">CSS3 ⭐⭐⭐⭐</span>
+            <span class="tag web">Tailwind CSS ⭐⭐⭐⭐</span>
+            <span class="tag web">REST APIs ⭐⭐⭐⭐</span>
+            <span class="tag web">Laravel ⭐⭐⭐</span>
+            <span class="tag web">MongoDB ⭐⭐⭐</span>
+            <span class="tag web">MySQL ⭐⭐⭐</span>
+            <span class="tag web">FastAPI ⭐⭐⭐</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">🤖 AI &amp; Machine Learning</h3>
+          <div class="skill-tags">
+            <span class="tag ai">TensorFlow / Keras ⭐⭐⭐</span>
+            <span class="tag ai">LSTM ⭐⭐⭐</span>
+            <span class="tag ai">ARO Algorithm ⭐⭐⭐</span>
+            <span class="tag ai">Pandas / NumPy ⭐⭐⭐</span>
+            <span class="tag ai">Scikit-learn ⭐⭐⭐</span>
+            <span class="tag ai">spaCy ⭐⭐</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">🎨 UI/UX Design</h3>
+          <div class="skill-tags">
+            <span class="tag design">Wireframing ⭐⭐⭐⭐</span>
+            <span class="tag design">Prototyping ⭐⭐⭐⭐</span>
+            <span class="tag design">Figma ⭐⭐⭐⭐</span>
+            <span class="tag design">Adobe XD ⭐⭐⭐</span>
+            <span class="tag design">Usability Testing ⭐⭐⭐</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">🛠️ Tools &amp; Platforms</h3>
+          <div class="skill-tags">
+            <span class="tag tools">Git / GitHub ⭐⭐⭐⭐</span>
+            <span class="tag tools">VS Code ⭐⭐⭐⭐</span>
+            <span class="tag tools">Docker ⭐⭐⭐</span>
+            <span class="tag tools">Postman ⭐⭐⭐</span>
+            <span class="tag tools">Jupyter Notebook ⭐⭐⭐</span>
+            <span class="tag tools">Streamlit ⭐⭐⭐</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">🏢 Professional Skills</h3>
+          <div class="skill-tags">
+            <span class="tag pro">Team Leadership ⭐⭐⭐⭐</span>
+            <span class="tag pro">Communication ⭐⭐⭐⭐</span>
+            <span class="tag pro">Problem Solving ⭐⭐⭐⭐</span>
+            <span class="tag pro">Project Management ⭐⭐⭐</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ---- Projects ---- -->
+    <section class="card" id="projects">
+      <div class="card-header">
+        <span class="card-icon">🚀</span>
+        <h2 class="card-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <h3>EdiBite – Smart Digital Marketplace</h3>
+          <p class="project-tech">React.js · Node.js · MongoDB · Firebase</p>
+          <p>Full-stack digital marketplace for canteen management with online ordering, real-time chat, and role-based dashboards.</p>
+          <span class="project-year">2025 – 2026</span>
+        </div>
+
+        <div class="project-card">
+          <h3>Stock Price Prediction (LSTM & ARO)</h3>
+          <p class="project-tech">Python · TensorFlow/Keras · Pandas · Scikit-learn</p>
+          <p>Advanced ML model combining LSTM networks with Artificial Rabbits Optimization to predict market trends.</p>
+          <span class="project-year">2025</span>
+        </div>
+
+        <div class="project-card">
+          <h3>Waste Food Management App</h3>
+          <p class="project-tech">Responsive Web Design</p>
+          <p>Platform to redistribute surplus food, focusing on responsive design and accessibility across devices.</p>
+          <span class="project-year">2025</span>
+        </div>
+
+        <div class="project-card">
+          <h3>E-Learning System</h3>
+          <p class="project-tech">HTML · CSS · Java</p>
+          <p>Web-based platform to facilitate online learning and course management.</p>
+          <span class="project-year">2024</span>
+        </div>
+
+        <div class="project-card">
+          <h3>Library Management System</h3>
+          <p class="project-tech">Java (OOP)</p>
+          <p>Object-oriented Java application to streamline book borrowing, returns, and inventory management.</p>
+          <span class="project-year">2024</span>
+        </div>
+
+        <div class="project-card">
+          <h3>Global Beats App</h3>
+          <p class="project-tech">Figma (UI/UX Design)</p>
+          <p>Complete mobile application wireframe and interactive prototype with attractive, user-friendly UI/UX design.</p>
+          <span class="project-year">2023</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ---- Certifications ---- -->
+    <section class="card" id="certifications">
+      <div class="card-header">
+        <span class="card-icon">🏆</span>
+        <h2 class="card-title">Certifications &amp; Achievements</h2>
+      </div>
+      <ul class="cert-list">
+        <li><span class="cert-icon">📜</span> <strong>Full Stack Development with MERN</strong> – DigiSkills 3.0 (In Progress)</li>
+        <li><span class="cert-icon">📜</span> <strong>Artificial Intelligence using Python</strong> – DigiSkills 3.0 (In Progress)</li>
+        <li><span class="cert-icon">✅</span> <strong>Freelancing Course</strong> – DigiSkills (Nov 2025)</li>
+        <li><span class="cert-icon">✅</span> <strong>Graphic Design Course</strong> – DigiSkills (Nov 2025)</li>
+        <li><span class="cert-icon">✅</span> <strong>Google UX Design Professional Certificate</strong> – Coursera (2024)</li>
+        <li><span class="cert-icon">🏅</span> <strong>Team Leader</strong> – COMSATS Heritage &amp; Culture Society Activities (2025)</li>
+        <li><span class="cert-icon">🏅</span> <strong>Olympiad Participant</strong> – COMSATS (2022)</li>
       </ul>
     </section>
 
-    <!-- Contact -->
+    <!-- ---- Contact ---- -->
     <section class="card" id="contact">
-      <div class="card-icon">📬</div>
-      <h2 class="card-title">Contact Me</h2>
-      <p>Feel free to reach out to me through the following channels:</p>
+      <div class="card-header">
+        <span class="card-icon">📬</span>
+        <h2 class="card-title">Contact Me</h2>
+      </div>
+      <p>I'm open to internships, collaborations, and freelance projects. Let's connect!</p>
       <ul class="contact-list">
         <li>
           <span class="contact-icon">📧</span>
-          <a href="mailto:saddamali@email.com" id="email-link">saddamali@email.com</a>
+          <a href="mailto:nailakhani5457@gmail.com" id="email-link">nailakhani5457@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact-icon">📱</span>
+          <a href="tel:+923148957458" id="phone-link">+92-314-8957458</a>
         </li>
         <li>
           <span class="contact-icon">🔗</span>
-          <a href="https://github.com" id="github-link" target="_blank" rel="noopener noreferrer">github.com/saddamali</a>
+          <a href="https://linkedin.com/in/naila-bibi-62a2863a7" target="_blank" rel="noopener noreferrer" id="linkedin-link">linkedin.com/in/naila-bibi-62a2863a7</a>
+        </li>
+        <li>
+          <span class="contact-icon">🐙</span>
+          <a href="https://github.com/NailaKhani" target="_blank" rel="noopener noreferrer" id="github-link">github.com/NailaKhani</a>
         </li>
         <li>
           <span class="contact-icon">📍</span>
-          <span>Pakistan</span>
+          <span>9F-136 POF Wah Cantt, Taxila, Pakistan</span>
         </li>
       </ul>
     </section>
@@ -95,7 +289,8 @@
 
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
-    <p>© 2026 Saddam Ali &nbsp;|&nbsp; DigiSkills 3.0 MERN Batch-04</p>
+    <p>© 2026 <strong>Naila Bibi</strong> &nbsp;|&nbsp; Full Stack Developer &amp; AI Enthusiast</p>
+    <p class="footer-sub">DigiSkills 3.0 MERN Batch-04 &nbsp;|&nbsp; COMSATS University Islamabad</p>
   </footer>
 
 </body>
