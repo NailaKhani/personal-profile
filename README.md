@@ -12,13 +12,6 @@ A fully responsive **Personal Profile Web Page** built with **HTML5 & CSS3** —
 
 ---
 
-## 📸 Screenshots
-
-| Hero Section | Skills Section |
-|---|---|
-| ![Hero](https://via.placeholder.com/400x220/7c3aed/ffffff?text=Hero+Section) | ![Skills](https://via.placeholder.com/400x220/12122a/a78bfa?text=Skills+Section) |
-
----
 
 ## 🚀 Features
 
